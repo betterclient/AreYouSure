@@ -23,8 +23,10 @@ public class MixinClientPlayerInteractionManager {
             String name = pillarBlock.getTranslationKey();
 
             if(name.endsWith("_log") && !name.contains("stripped")) {
-                if (MinecraftClient.getInstance().currentScreen instanceof AreYouSure)
+                if (MinecraftClient.getInstance().currentScreen instanceof AreYouSure) {
+                    player.swingHand(hand);
                     return; //Player clicked yes :(
+                }
 
                 if (AreYouSure.canStripUntil >= System.currentTimeMillis())
                     return; //Allow for 1-5 min

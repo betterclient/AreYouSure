@@ -9,7 +9,7 @@
   ],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/areyousure/icon.png",
+  "icon": "assets/areyousure/logo.png",
   "environment": "client",
   "entrypoints": {},
   "mixins": [
