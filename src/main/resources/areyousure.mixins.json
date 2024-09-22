@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.betterclient.areyousure.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinClientPlayerInteractionManager"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

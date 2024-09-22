@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "areyousure",
+  "version": "${version}",
+  "name": "AreYouSure",
+  "description": "Are you sure you want to strip this log?",
+  "authors": [
+    "betterclient"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/areyousure/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "areyousure.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}",
+    "fabric": "*"
+  }
+}
